@@ -5,7 +5,7 @@ provider "aws" {
 }
 terraform {
   backend "s3" {
-    bucket = "tatatatata"
+    bucket = "tata111"
     key    = "tatatatata/project"
     region = "ap-south-1"
     access_key = "AKIA4QIWBQQQJ53AR3UX"
