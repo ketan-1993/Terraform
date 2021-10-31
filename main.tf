@@ -3,16 +3,7 @@ provider "aws" {
   access_key = "AKIA4QIWBQQQJ53AR3UX"
   secret_key = "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"
 }
-terraform {
-  backend "s3" {
-    bucket = "tata111"
-    key    = "tatatatata/project"
-    region = "ap-south-1"
-    access_key = "AKIA4QIWBQQQJ53AR3UX"
-    secret_key = "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"
-}
-    
-  }
+
 }
 resource "aws_vpc" "main" {
   count            = 2
